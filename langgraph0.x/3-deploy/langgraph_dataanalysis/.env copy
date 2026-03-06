@@ -1,0 +1,9 @@
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=
+LANGSMITH_PROJECT=langgraph_data_analysis
+HOST=localhost
+USER=root
+MYSQL_PW=123456
+DB_NAME=world
+PORT=3306

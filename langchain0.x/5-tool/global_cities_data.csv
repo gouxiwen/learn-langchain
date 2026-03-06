@@ -1,0 +1,11 @@
+jisuCity,Country,Continent,Population,GDP_Billion_USD,Avg_Temperature_C,Annual_Rainfall_mm,Cost_of_Living_Index,Happiness_Index,Year,Area_km2,Literacy_Rate,Internet_Penetration
+Tokyo,Japan,Asia,37400068,1080.0,15.2,1528.0,92.3,6.9,2023,2194.0,99.0,96.0
+New York City,United States,North America,8335897,2010.0,12.8,1268.0,100.0,7.2,2023,783.8,99.0,95.0
+Shanghai,China,Asia,24870895,680.0,16.5,1144.0,68.5,6.8,2023,6340.5,99.8,89.0
+London,United Kingdom,Europe,9304016,660.0,10.5,690.0,88.7,7.3,2023,1572.0,99.0,94.0
+São Paulo,Brazil,South America,12325232,430.0,19.2,1560.0,52.1,6.5,2023,1521.1,97.5,82.0
+Mumbai,India,Asia,12442373,360.0,27.1,2168.0,45.2,5.9,2023,603.4,89.0,65.0
+Cairo,Egypt,Africa,21322750,180.0,21.4,18.0,38.9,5.7,2023,3085.1,71.2,54.0
+Sydney,Australia,Oceania,5312163,390.0,17.8,1212.0,78.6,7.4,2023,12368.0,99.9,97.0
+Berlin,Germany,Europe,3677472,320.0,9.5,591.0,75.3,7.5,2023,891.8,99.0,93.0
+Mexico City,Mexico,North America,9209944,280.0,16.8,786.0,48.7,6.3,2023,1485.0,95.2,78.0

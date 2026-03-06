@@ -1,0 +1,7 @@
+langgraph0.x/3-deploy/agent-chat-ui/
+.langgraph_api/
+__pycache__/
+faiss_db/
+langchain0.x/4-chatbot/.gradio/certificate.pem
+langgraph0.x/3-deploy/langgraph_dataanalysis/.env
+langgraph0.x/3-deploy/langgraph_chatbot/.env
