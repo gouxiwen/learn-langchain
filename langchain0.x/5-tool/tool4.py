@@ -14,7 +14,7 @@ def get_weather(loc):
     """
     url = "https://api.seniverse.com/v3/weather/now.json"
     params = {
-        "key": "StSCw8U4iJyYWfmNb",
+        "key": "自己的apikye",
         "location": loc,
         "language": "zh-Hans",
         "unit": "c",
@@ -33,7 +33,7 @@ model = init_chat_model(
     model="Qwen/Qwen3-8B",
     model_provider="openai",
     base_url="https://api.siliconflow.cn/v1/",
-    api_key="sk-vcsmjxxaanktozmkjkqkipjsisvbcoezstlvsxslbqqfddir",
+    api_key="自己的apikey",
 )
 
 tools = [get_weather]

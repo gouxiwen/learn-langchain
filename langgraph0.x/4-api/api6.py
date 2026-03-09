@@ -19,7 +19,7 @@ graph_builder = StateGraph(State)
 model = init_chat_model(
     model='glm-4.7',
     model_provider="openai",
-    api_key='75301e9d6ffc4d878a32a2a5b31dc8c0.frRvWZTAQklAYIXJ',
+    api_key='自己的apikey',
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 

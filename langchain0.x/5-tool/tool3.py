@@ -9,7 +9,7 @@ def get_weather(loc):
     """
     url = "https://api.seniverse.com/v3/weather/now.json"
     params = {
-        "key": "StSCw8U4iJyYWfmNb",
+        "key": "自己的apikye",
         "location": loc,
         "language": "zh-Hans",
         "unit": "c",

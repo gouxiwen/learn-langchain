@@ -15,7 +15,7 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 class Configuration:
     def __init__(self) -> None:
         load_dotenv()
-        self.api_key='75301e9d6ffc4d878a32a2a5b31dc8c0.frRvWZTAQklAYIXJ'
+        self.api_key='自己的apikey'
         self.model="glm-4.7"
 
     @staticmethod

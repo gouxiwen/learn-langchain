@@ -11,7 +11,7 @@ model = init_chat_model(
     model="Qwen/Qwen3-8B",
     model_provider="openai",
     base_url="https://api.siliconflow.cn/v1/",
-    api_key="sk-vcsmjxxaanktozmkjkqkipjsisvbcoezstlvsxslbqqfddir", #你注册的硅基流动api_key
+    api_key="自己的apikey", #你注册的硅基流动api_key
 )
 
 # 第一个子链：生成新闻内容

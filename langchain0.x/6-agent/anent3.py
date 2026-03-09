@@ -23,7 +23,7 @@ model = init_chat_model(
     # model="glm-5",
     model="glm-4.7",
     model_provider="openai", # 模型提供商，智普提供了openai请求格式的访问
-    openai_api_key="75301e9d6ffc4d878a32a2a5b31dc8c0.frRvWZTAQklAYIXJ",
+    api_key='自己的apikey',
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 agent = create_tool_calling_agent(model, tools, prompt)

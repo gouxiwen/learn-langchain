@@ -3,6 +3,7 @@
 # 添加大模型节点
 
 from typing import Annotated,TypedDict
+from dotenv import load_dotenv
 from langgraph.graph import StateGraph
 from langgraph.graph.message import add_messages
 from langchain.chat_models import init_chat_model
@@ -12,8 +13,11 @@ from langgraph.prebuilt import ToolNode
 from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 import requests
+import os
+from pathlib import Path
 
-
+env_path = Path(__file__).parent.parent.parent.joinpath(".env.local")
+load_dotenv(dotenv_path=env_path, override=True)
 # 使用TypedDict创建具有特定键值类型的字典类来规范状态结构，其中messages键是一个列表，我们通过Annotated注解指定使用add_messages函数来处理消息的累积更新。
 class AgentState(TypedDict):
     messages: Annotated[list, add_messages]
@@ -36,7 +40,7 @@ def get_weather(loc):
     """
     url = "https://api.seniverse.com/v3/weather/now.json"
     params = {
-        "key": "StSCw8U4iJyYWfmNb",
+        "key": os.getenv("xinzhi_api_key"),
         "location": loc,
         "language": "zh-Hans",
         "unit": "c",
@@ -45,10 +49,11 @@ def get_weather(loc):
     temperature = response.json()
     return temperature['results'][0]['now']
 
+
 model = init_chat_model(
     model='glm-4.7',
     model_provider="openai",
-    api_key='75301e9d6ffc4d878a32a2a5b31dc8c0.frRvWZTAQklAYIXJ',
+    api_key=os.getenv("zhipu_api_key"),
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 
