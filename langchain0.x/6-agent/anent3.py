@@ -7,7 +7,7 @@ from langchain_tavily import TavilySearch
 # 搜索工具
 # Tavily每个月有1000次免费搜索案例
 # api key在环境变量TAVILY_API_KEY中，或者直接在代码中传入
-search = TavilySearch(max_results=2, tavily_api_key='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')
+search = TavilySearch(max_results=2, tavily_api_key='自己的apikey')
 tools = [search]
 
 prompt = ChatPromptTemplate.from_messages(

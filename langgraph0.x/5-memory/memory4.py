@@ -22,13 +22,6 @@ model = init_chat_model(
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 
-
-model = init_chat_model(
-    model="deepseek-chat",
-    model_provider="deepseek",
-    api_key='sk-bec76b9411694239b20ead2d77ee37f0'
-)
-
 DB_URI = "postgresql://postgres:postgres@localhost:5442/postgres?sslmode=disable"
 
 with (

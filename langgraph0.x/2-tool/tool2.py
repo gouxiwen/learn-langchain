@@ -15,7 +15,7 @@ model = init_chat_model(
 search_tool = TavilySearch(
     max_results=2,
     topic='general',
-    tavily_api_key='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',
+    tavily_api_key='自己的apikey',
 )
 
 tools = [search_tool]
