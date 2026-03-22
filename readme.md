@@ -10,6 +10,12 @@ langchain中文文档： https://docs.langchain.org.cn/langsmith/home
 
 使用anaconda管理虚拟环境
 
+安装anaconda
+
+https://docs.conda.io/en/latest/miniconda.html
+
+注意：自 2025 年 8 月 15 日起，Anaconda 已停止为 Intel Mac 电脑（OS X 64 位）构建软件包。现有的 Intel (MacOS X 86_64) 安装程序仍可在 https://repo.anaconda.com/miniconda/ 获取。最后一个适用于 Intel Mac 电脑的 Miniconda 安装程序版本为 25.7.x。
+
 查看conda版本
 
 conda --version
