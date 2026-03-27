@@ -1,17 +1,29 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": [
-        {
-            "path": "4-chatbot/chatbot.py",
-            "envManager": "ms-python.python:conda",
-            "packageManager": "ms-python.python:conda"
-        },
-        {
-            "path": "6-agent/anent1.py",
-            "envManager": "ms-python.python:conda",
-            "packageManager": "ms-python.python:conda"
-        }
-    ],
-    "editor.formatOnSave": true
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [
+    {
+      "path": "4-chatbot/chatbot.py",
+      "envManager": "ms-python.python:conda",
+      "packageManager": "ms-python.python:conda"
+    },
+    {
+      "path": "6-agent/anent1.py",
+      "envManager": "ms-python.python:conda",
+      "packageManager": "ms-python.python:conda"
+    }
+  ],
+  "python.languageServer": "Pylance",
+  "python.analysis.autoImportCompletions": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  }
 }
