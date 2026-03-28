@@ -33,7 +33,7 @@ conda activate xxx
 
 conda在4.6版本以前需要使用如下命令：
 
-Linux: source activate xxx
+Linux: conda activate xxx
 Windows（cmd）: activate xxx
 
 配置镜像
