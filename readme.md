@@ -91,6 +91,12 @@ conda create -n langgraph-classic-env python=3.12
 
 pip install langgraph==0.6.6 langchain==0.3.26 langchain-core==0.3.83 langchain-openai==0.3.35
 
+### langgraph1.x
+
+创建虚拟环境
+
+conda create -n langgraph-env python=3.12
+
 ### depoly
 
 使用LangSmith、LangGraph Studio 和 LangGraph CLI搭建和部署、调试langgraph应用
